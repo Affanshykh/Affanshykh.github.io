@@ -314,3 +314,33 @@ footer {
         padding: 4rem 0;
     }
 }
+
+/* Language Selector */
+.lang-selector-container {
+    display: flex;
+    align-items: center;
+}
+
+.lang-selector {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+    border: 1px solid var(--glass-border);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.lang-selector:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-selector option {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+}
